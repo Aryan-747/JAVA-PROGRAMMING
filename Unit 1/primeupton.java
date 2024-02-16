@@ -31,6 +31,8 @@ public class primeupton {
             }
             n++;
         }
+
+        myinp.close();
     }
     
 }
