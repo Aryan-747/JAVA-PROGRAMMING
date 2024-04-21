@@ -1,5 +1,5 @@
 import java.util.Scanner;
-abstract class Shape {
+abstract class Shape1 {
 
 	// write your code here
 	
@@ -8,7 +8,7 @@ abstract class Shape {
 	
 }
 
-class Rectangle extends Shape {
+class Rectangle1 extends Shape1 {
 
 	// write your code here
 	double length;
@@ -36,7 +36,7 @@ class Rectangle extends Shape {
     }
 }
 
-class Circle extends Shape {
+class Circle1 extends Shape1 {
 	// write your code here
 	
 	double radius;
@@ -63,10 +63,10 @@ class Circle extends Shape {
 public class Abstract2{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Rectangle rectangle = new Rectangle();
+        Rectangle1 rectangle = new Rectangle1();
         rectangle.inputDetails(scanner);
         rectangle.displayDetails();
-        Circle circle = new Circle();
+        Circle1 circle = new Circle1();
         circle.inputDetails(scanner);
         circle.displayDetails();
         scanner.close();

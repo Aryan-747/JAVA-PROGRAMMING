@@ -12,7 +12,6 @@ class Product1
 			System.out.print("Enter product name: ");
 			productName = scanner.nextLine();
 
-			scanner.close();
 		}
 		
 		void displayQuantity()
@@ -27,13 +26,12 @@ class Purchase extends Product1
 		
 		void inputPurchaseDetails()
 		{
-			System.out.print("Enter quantity purchased: ");
-			
 			Scanner scanner = new Scanner(System.in);
-			
+
+			System.out.print("Enter quantity purchased: ");
+				
 			purchaseQuantity = scanner.nextInt();
 
-			scanner.close();
 		}
 		
 		void updateInventory()

@@ -21,7 +21,6 @@ class FlightBooking extends TravelBooking
 		
 		System.out.println("Flight booked");
 
-		inp.close();
 	}
 }
 
@@ -37,8 +36,7 @@ class HotelBooking extends TravelBooking
 		hname = inp.nextLine();
 		
 		System.out.println("Hotel booked");
-
-		inp.close();
+		
 	}
 	
 }
