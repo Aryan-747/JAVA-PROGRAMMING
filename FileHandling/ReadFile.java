@@ -1,19 +1,19 @@
 package FileHandling;
 
 import java.io.File;
-import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class ReadFile {
 
     public static void main(String[] args)
     {
-        File mf = new File("/home/aryan/Desktop/LearningJava/FileHandling/File2.txt");
-
+       
         try
         {
-        if(mf.exists())
-        {
+
+        File mf = new File("/home/aryan/Desktop/LearningJava/FileHandling/File2.txt");
+
             Scanner reader = new Scanner(mf);
 
             while(reader.hasNextLine())
@@ -23,16 +23,10 @@ public class ReadFile {
             }
 
             reader.close();
-            
+
         }
 
-        else
-        {
-            System.out.println("File Does Not Exist!");
-        }
-        }
-
-        catch (IOException e)
+        catch (FileNotFoundException e)
         {
             System.out.println("Error Encountered! :( Big Oooof");
         }
