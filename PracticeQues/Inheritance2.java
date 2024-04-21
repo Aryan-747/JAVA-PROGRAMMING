@@ -18,6 +18,8 @@ class ProductInfo extends Product
 		prodname = myscanner.nextLine();
 		System.out.print("price: $");
 		Price = myscanner.nextDouble();
+
+		myscanner.close();
 	}
 	
 	void displayProductInfo()

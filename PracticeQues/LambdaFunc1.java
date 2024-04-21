@@ -28,6 +28,8 @@ public class LambdaFunc1{
 	};
 	
 	System.out.println("Factorial: " + factorial.calculateFactorial(num));
+
+	scan.close();
 	
 }
 }

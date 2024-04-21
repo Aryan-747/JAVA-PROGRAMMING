@@ -9,6 +9,8 @@ class NumberIn
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter number: ");
 		num = scan.nextInt();
+
+		scan.close();
 	}
 }
 

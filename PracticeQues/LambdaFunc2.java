@@ -34,5 +34,7 @@ public class LambdaFunc2{
 		
 		System.out.println(cnt);
 
+		newe.close();
+
 }
 }

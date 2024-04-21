@@ -12,7 +12,7 @@ public class LambdaArray {
 	Scanner newscan = new Scanner(System.in);
 	
 	int size;
-	int k;
+	//int k;
 	
 	System.out.print("Size of the array: ");
 	size = newscan.nextInt();
@@ -28,6 +28,8 @@ public class LambdaArray {
 	Arrays.sort(array);
 	
 	System.out.println(array[array.length-1]);
+
+	newscan.close();
 	
 	
 	

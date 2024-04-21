@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.*;
 
 // This Program capitalizes the first letter of every word in the given input sentence
 

@@ -25,6 +25,8 @@ class Coffee extends Beverage
 		System.out.println("Ordered Coffee Details:");
 		System.out.println("Coffee Type: " + type);
 		System.out.println("Size: " + size);
+
+		myscan.close();
 		
 	}
 }
@@ -45,6 +47,8 @@ class Tea extends Beverage
 		System.out.println("Ordered Tea Details:");
 		System.out.println("Tea Type: " + type);
 		System.out.println("Sweetness Level: " + sweetness);
+
+		myscan.close();
 	}
 }
 		
