@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Product
+class Product1
   {
     String productName;
     int quantity;
@@ -21,7 +21,7 @@ class Product
 		}
 	}
 	
-class Purchase extends Product
+class Purchase extends Product1
 	{
 		int purchaseQuantity;
 		
